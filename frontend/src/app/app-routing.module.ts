@@ -12,7 +12,7 @@ const routes: Routes = [
 	},
 	{
 		path: '**',
-		redirectTo: 'agent/default'
+		redirectTo: 'agent/default' 
 	}
 ];
 
