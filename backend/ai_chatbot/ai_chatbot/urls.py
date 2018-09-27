@@ -16,6 +16,9 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from ai_chatbot.views.views import hello
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^hello/$', hello),
 ]
