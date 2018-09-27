@@ -1,0 +1,10 @@
+Create virtualenvironment:
+--------------------------
+
+	virtualenv -p python3 chatEnv
+	Activate virtualEnv : source chatEnv/bin/activate
+
+Install Django:
+---------------
+
+pip install django==1.11.2 

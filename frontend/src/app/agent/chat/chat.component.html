@@ -1,6 +1,6 @@
 <!-- https://tburleson-layouts-demos.firebaseapp.com/#/docs -->
 <div fxLayout="row" fxFill>
-  <mat-card fxFlex="30" fxLayout="column" >
+  <mat-card fxFlex="50" fxLayout="column" >
     <div fxFlex="90" class="chat-container" #scrollMe>
       <div *ngFor="let message of messages"  [@listAnimation]="messages.length" >
 
@@ -27,8 +27,11 @@
       </form>
     </mat-card>
     
-    <mat-card fxFlex="50" class="json-response">
+    <!-- <mat-card fxFlex="50" class="json-response">
       <h3>POST /api/v1</h3>
       <pre>{{prettyChatCurrent}}</pre>
+    </mat-card> -->
+    <mat-card fxFlex="50" class="json-response">
+      <img src="/assets/images/customer_care.jpeg" width="420px" height="100%" />
     </mat-card>
 </div> 
