@@ -6,8 +6,8 @@ export class ChatService {
 
   constructor(private http:HttpClient) { }
 
-  converse(intent, botId = 'default') {
-    return this.http.post(environment.ikyBackend + `api/v1`, intent).toPromise();
+  converse(chatmsg) {
+    return this.http.get(environment.hrBackend + `chat?inputmsg=`+chatmsg).toPromise();
   }
 
 }

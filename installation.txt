@@ -8,3 +8,9 @@ Install Django:
 ---------------
 
 pip install django==1.11.2 
+sudo apt install default-libmysqlclient-dev
+pip install mysqlclient
+pip install mysql-connector 
+pip install djangorestframework
+pip install python-dateutil
+

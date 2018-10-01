@@ -114,7 +114,7 @@ scrollToBottom(): void {
     this.add_to_messages(form.input,"user")
 
     this.changeCurrent(sendMessage);
-    this.chatService.converse(sendMessage)
+    this.chatService.converse(form.input)
       .then((c: any) => {
         c.owner = 'chat';
         this.changeCurrent(c);
